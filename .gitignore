@@ -1,0 +1,32 @@
+# Qt/C++ 编译产物
+*.o
+*.obj
+*.moc
+*.rcc
+*.ui
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+Makefile
+
+# Android 构建
+android-build/
+build-*/
+*.apk
+
+# Qt Creator
+*.pro.user
+*.pro.user.*
+
+# IDE
+.vs/
+.vscode/
+*.swp
+*.swo
+
+# Claude Code 本地配置
+.claude/
+
+# 系统文件
+Thumbs.db
+.DS_Store
